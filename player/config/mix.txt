@@ -1,0 +1,3 @@
+Mixing two sounds
+Parametrs: Pointer to second sound, seconds to do
+mix $2 10

@@ -1,0 +1,3 @@
+Muting interval of sound
+Parametrs: start (seconds), end (seconds)
+mute 12 30
