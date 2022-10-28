@@ -1,0 +1,10 @@
+^C:\USERS\GAME_\SOURCE\REPOS\PLAYER\CMAKE PROJ\CMAKEFILES\0E184B941752811833FC8FF83A52269B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/game_/source/repos/player/cmake proj" "-BC:/Users/game_/source/repos/player/cmake proj" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/game_/source/repos/player/cmake proj/Sound-procesSor.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

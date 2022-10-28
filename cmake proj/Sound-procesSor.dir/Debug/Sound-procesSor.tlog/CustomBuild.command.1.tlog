@@ -1,0 +1,10 @@
+^C:\USERS\GAME_\SOURCE\REPOS\PLAYER\CMAKE PROJ\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/game_/source/repos/player/cmake proj" "-BC:/Users/game_/source/repos/player/cmake proj" --check-stamp-file "C:/Users/game_/source/repos/player/cmake proj/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
